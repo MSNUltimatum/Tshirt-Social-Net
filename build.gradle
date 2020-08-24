@@ -30,6 +30,8 @@ dependencies {
     implementation 'javax.xml.bind:jaxb-api'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.3.3.RELEASE'
     compile group: 'org.springframework.security.oauth.boot', name: 'spring-security-oauth2-autoconfigure', version: '2.3.3.RELEASE'
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile('org.springframework.session:spring-session-jdbc')
 }
 
 test {
